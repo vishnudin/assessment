@@ -1,20 +1,26 @@
-# Challenge - 01
+# ciec-code
 
-Files provided:
-```
-├── challenge-01
-│   ├── README.md
-│   └── table_data.xlsx
-```
-## Ask
-- Please find xlsx file with 3 worksheets.
-```
-  Instructions --> instructions on what need to be achieved 
-  Employees --> Employees data table
-  Devices --> Devices data table
-```
-- Read xlsx worksheet `Instructions` on the problem statement.
-- Work on a solution to read data tables provided and to get a solution.
-- You can use any tool, any language to get to your solution.
-- Submit/commit your code as a new file/s to your personal repo folder named challenge-01
-- Please provide complete written instructions on how to use your solution files. Like how to run & get to answer.
+Please read all instructions carefully.
+You will have 3 challenges to work on before meeting. 
+
+You should roughly get 24hrs to work on all challenges.
+
+Please try to solve all or as many as possible.
+
+## Challenges
+[challenge-01](challenge-01)
+
+[challenge-02](challenge-02)
+
+[challenge-03](challenge-03)
+
+
+## Steps
+### Work on solution
+- Read README's files inside each of the Challenge folder and work according to the ask in it.
+### Commit work to your personal github
+- Use your personal github account to submit code. Create a new account and repo if needed.
+- Commit all of your code to your personal github repo
+### Share your github repo link at the time of meeting 
+- At the time of meeting, we will ask for your github repo link and we will review your code in the meeting along with you.
+
