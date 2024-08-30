@@ -1,4 +1,4 @@
-# ciec-code
+# Assessment-Instructions
 
 Please read all instructions carefully.
 You will have 3 challenges to work on before meeting. 
