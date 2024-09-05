@@ -1,0 +1,3 @@
+cd golang
+
+docker-compose up --build

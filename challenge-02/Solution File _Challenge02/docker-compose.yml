@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ENVIRONMENT=${ENVIRONMENT}
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./file-dev.txt:/app/file-dev.txt
+      - ./file-prod.txt:/app/file-prod.txt
