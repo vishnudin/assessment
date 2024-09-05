@@ -1,0 +1,10 @@
+{
+    "DEV": {
+        "setting1": "default",
+        "setting2": "default"
+    },
+    "PROD": {
+        "setting1": "default",
+        "setting2": "default"
+    }
+}
