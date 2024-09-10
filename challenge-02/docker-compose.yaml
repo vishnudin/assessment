@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - ENV=${ENV:-DEV}  # Default to DEV if ENV is not provided
+    volumes:
+      - ./golang/file-dev.txt:/app/files/file-dev.txt
+      - ./golang/file-prod.txt:/app/files/file-prod.txt
