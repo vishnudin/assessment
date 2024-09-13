@@ -1,0 +1,4 @@
+Run below commands to get the expected result.
+
+pip install pandas
+python challenge1.py
