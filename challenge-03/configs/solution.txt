@@ -1,0 +1,17 @@
+Create a update_json.py file and wirte the python code in that file.
+
+import the csv,json files and import the argparse it is used to handle the command-line arguments.
+
+env specifies the environment section to update
+
+csv specifies the path to the csv file
+
+json specifies the path to the json file
+
+
+finally write the updated json data to the file.
+
+Save the script and run  it from the CLI
+
+python3 update_json.py --env PROD --csv input.csv --json config.json
+

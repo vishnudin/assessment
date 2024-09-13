@@ -1,16 +1,38 @@
 {
-    "DEV": {
-        "host": "0.0.0.0",
-        "port": 0,
-        "dbname": "ddd",
-        "user": "uuu",
-        "password": "pppp"
-    },
-    "PROD": {
-        "host": "0.0.0.0",
-        "port": 0,
-        "dbname": "ddd",
-        "user": "uuu",
-        "password": "ppp"
-    }
+    "DEV": [
+        {
+            "ENV": "PROD",
+            "host": "127.10.10.10",
+            "port": "1234",
+            "dbname": "dbname1",
+            "user": "user1",
+            "password": "password1"
+        },
+        {
+            "ENV": "DEV",
+            "host": "127.0.0.1",
+            "port": "5467",
+            "dbname": "dbname2",
+            "user": "user2",
+            "password": "password2"
+        }
+    ],
+    "PROD": [
+        {
+            "ENV": "PROD",
+            "host": "127.10.10.10",
+            "port": "1234",
+            "dbname": "dbname1",
+            "user": "user1",
+            "password": "password1"
+        },
+        {
+            "ENV": "DEV",
+            "host": "127.0.0.1",
+            "port": "5467",
+            "dbname": "dbname2",
+            "user": "user2",
+            "password": "password2"
+        }
+    ]
 }

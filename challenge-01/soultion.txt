@@ -1,0 +1,9 @@
+Install pandas and openpyxl for reading excel files.
+
+read_table function reads a specific sheet from excel file into datastream.
+
+write the script for the employee names who do not have a device record.
+
+Output the script prints out the name of employees who do not have a recorded device.
+
+
