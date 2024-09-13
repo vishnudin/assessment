@@ -16,7 +16,7 @@ func main() {
 }
 
 func FileHandler(w http.ResponseWriter, r *http.Request) {
-	data, err := os.ReadFile("file-dev.txt")
+	data, err := os.ReadFile("file.txt")
 	if err != nil {
 		panic(err)
 	}
