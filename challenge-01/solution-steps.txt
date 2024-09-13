@@ -1,0 +1,25 @@
+Approach steps:
+1. Load the Data: Read the two tables (Employees and Devices) from the spreadsheet.
+2. Merge Data: Identify employees who do not have a device record.
+3. Output the Results: List the names of the employees without a recorded device.
+
+Used Language: Python (3.12.6)
+	1. To install the python in windows download the exe file from location (https://www.python.org/downloads/).
+	2. Make sure during the installation, check the box that says "Add Python to PATH" and complete the installation.
+	3. We have to install the necessary libraries like pandas and openpyxl for reading Excel files.
+		a. To install the libraries type/execute - pip install pandas openpyxl in command prompt.
+
+Solution Steps: (Make sure the python and necessary libraries are installed before staring the below steps).
+1. Clone the GitHub repo to the local machine.
+2. Go to the folder path (assessment/challenge-01)
+3. Open the windows command prompt.
+3. Execute/Run the script.py file from the command prompt.
+
+We will be getting the expected output like below.
+Employees without recorded devices:
+   first_name last_name
+    XXXXX     XXXXXX
+
+
+
+
