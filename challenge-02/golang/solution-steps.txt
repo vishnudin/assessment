@@ -1,0 +1,16 @@
+Software's Installed:
+    1. Install the Docker by using this link - https://docs.docker.com/engine/install/
+    2. Install the docker-compose by using this link - https://docs.docker.com/compose/install/
+
+Solution Steps:
+    1. Clone the GitHub repo to the local machine.
+    2. Go to the folder path (assessment/challenge-02/golang).
+    3. Open the command prompt.
+    4. Run the command - docker-compose up --build -d (Build and run the application in development mode)
+    5. If we need to run the app in production mode use this - ENVIRONMENT=PROD docker-compose up --build -d
+    6. To list the running containers after starting your services with docker-compose up, use this command:- docker-compose ps
+
+Expected Output:
+     Name                  Command          State           Ports
+    -----------------------------------------------------------------------
+     go-app                ./server         Up              0.0.0.0:8080->8080/tcp
