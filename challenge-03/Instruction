@@ -1,0 +1,5 @@
+Run below command to get the expected output.
+
+python updatejson.py --env <envname> --json ./config.json --csv ./input.csv
+
+<envname> => Name of the environment for which data should be updated in the JSON file.
