@@ -8,7 +8,14 @@ import (
 )
 
 func main() {
-
+	// Get the ENVIRONMENT variable (default is PROD if not set)
+	env := os.Getenv("ENVIRONMENT")
+	if env == "DEV" {
+             fileName = "file-dev.txt"
+        } else {
+             fileName = "file-prod.txt"
+        }
+	
 	http.HandleFunc("/", FileHandler)
 
 	fmt.Println("Server started, running 8080")
@@ -16,7 +23,7 @@ func main() {
 }
 
 func FileHandler(w http.ResponseWriter, r *http.Request) {
-	data, err := os.ReadFile("file.txt")
+	data, err := os.ReadFile(fileName) // Read the content of the selected file
 	if err != nil {
 		panic(err)
 	}

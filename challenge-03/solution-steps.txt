@@ -1,0 +1,9 @@
+Software's Installed:
+    1. To install the python in windows download the exe file from location (https://www.python.org/downloads/).
+	2. Make sure during the installation, check the box that says "Add Python to PATH" and complete the installation.
+
+Solution Steps:
+    1. Clone the GitHub repo to the local machine.
+    2. Go to the folder path (assessment/challenge-03).
+    3. Open the woindows command prompt.
+    4. Excute/Run the command - updatejson.py -env <environment> -json ./configs/config.json -csv ./configs/input.csv
