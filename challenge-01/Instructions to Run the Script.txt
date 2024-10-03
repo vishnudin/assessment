@@ -1,0 +1,21 @@
+Prerequisites:
+1.Python Installation
+2.Install Required Libraries
+pip install pandas openpyxl
+
+Steps to Run the Script:
+
+Download the Files:
+Download the following files and save them to your local system:
+table_data.xlsx (This contains the employee and device data.)
+challenge-01_ANS.py (The Python script that checks which employees do not have a device record.)
+
+Open Terminal/Command Prompt:
+Navigate to the folder where both the table_data.xlsx and challenge-01_ANS.py files are saved.
+
+Run the Python Script:
+In your terminal or command prompt, run the following command:
+./challenge-01_ANS.py
+
+This command will execute the Python script, and the names of employees who do not have a device record will be displayed in the terminal.
+
