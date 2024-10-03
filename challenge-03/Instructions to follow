@@ -1,0 +1,21 @@
+Prerequisites:
+1.Python
+2.Install the required Python libraries:
+pip install pandas
+
+Steps to Run the Script:
+
+Download the Files:
+Ensure the following files are in the same folder:
+updatejson.py (the script)
+config.json (the JSON file to be updated)
+input.csv (the CSV file with the data to update the JSON)
+
+Open Terminal/Command Prompt:
+Navigate to the folder where the above files are located.
+
+Run the Script:
+Use the following command to run the script, updating the JSON based on the environment (DEV or PROD) specified in the CSV:
+# ./updatejson.py --env <ENVIRONMENT> --json <PATH_TO_JSON> --csv <PATH_TO_CSV>
+
+# ./updatejson.py --env DEV --json ./config.json --csv ./input.csv
