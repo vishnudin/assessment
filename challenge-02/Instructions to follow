@@ -1,0 +1,53 @@
+Prerequisites:
+1.Install Go
+2.Install Docker Desktop
+3.Git
+
+Steps to Run the Script:
+1. Download the Files:
+Git clone the repository to your local machine:
+git clone <your-repo-url>
+cd <your-repo-folder>
+
+2. Open Terminal/Command Prompt:
+Navigate to the golang directory where the server.go, Dockerfile, and other required files are located:
+
+3. Build and Run the Docker Container:
+Run the following command to build and run the containerized Go server:
+docker-compose up --build
+
+This command will:
+Build the Go server using Docker.
+Run the server in a container.
+Expose it on http://localhost:8080.
+
+4. Switch between Development and Production Modes:
+
+To switch between environments (DEV/PROD):
+Open the docker-compose.yml file.
+Change the environment and volume mappings:
+
+i.For Development:
+environment:
+  - ENV=DEV
+volumes:
+  - ./file-dev.txt:/app/file.txt
+
+ii.For Production:
+environment:
+  - ENV=PROD
+volumes:
+  - ./file-prod.txt:/app/file.txt
+
+Rebuild and run the Docker container again:
+docker-compose up --build
+
+5. Access the Web Server:
+Once the container is running, open your browser and go to:
+http://localhost:8080
+
+If you're in Development mode, it will display the content from file-dev.txt.
+If you're in Production mode, it will display the content from file-prod.txt.
+
+6. Stop the Server:
+docker-compose down
