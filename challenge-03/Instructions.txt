@@ -1,0 +1,2 @@
+#Run command to run the python code and check output under json file
+python update_json.py --env DEV --json ./configs/config.json --csv ./configs/input.csv
