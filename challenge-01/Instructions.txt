@@ -1,0 +1,9 @@
+Instructions:
+
+Run python challenge01.py to execute the code.
+
+In this script, we utilize the Pandas library to retrieve employee and device data from specified Google Sheets URLs. We read the CSV files using the read_csv method, importing the employee data into table1 from sheet1_url and device data into table2 from sheet2_url.
+
+Then we create a list to store the absent employees. By iterating over table1, we check if each employee's ID is absent from the employee_id column of table2. If an ID is not found, we append the corresponding row index (adjusted to start from 1), along with the employee's first and last names, to our list.
+
+Finally, we convert this list into a DataFrame for improved visualization and print the output to display the absent employees.
